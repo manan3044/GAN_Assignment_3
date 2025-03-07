@@ -55,6 +55,8 @@ This project implements a Deep Convolutional Generative Adversarial Network (DCG
 - Initially, the generated images will appear noisy and unrealistic.
 - As training progresses, the Generator improves, and the images start resembling real human faces.
 - After sufficient epochs, the GAN produces high-quality face images that are visually convincing.
+![image](https://github.com/user-attachments/assets/2502c621-108f-4500-8ff4-c5059e8f765f)
+
 
 ## Notes
 - Training GANs can be computationally expensive. A powerful GPU is recommended.
@@ -62,6 +64,6 @@ This project implements a Deep Convolutional Generative Adversarial Network (DCG
 - Experimenting with different architectures, activation functions, and optimizers may improve results.
 
 ## References
-- `DCGAN Paper: https://arxiv.org/abs/1511.06434`
+- DCGAN Paper: `https://arxiv.org/abs/1511.06434`
 - PyTorch DCGAN Tutorial: `https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html`
 

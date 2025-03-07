@@ -60,12 +60,6 @@ This project implements a Deep Convolutional Generative Adversarial Network (DCG
 - After sufficient epochs, the GAN produces high-quality face images that are visually convincing.
 ![image](https://github.com/user-attachments/assets/2502c621-108f-4500-8ff4-c5059e8f765f)
 
-
-## Notes
-- Training GANs can be computationally expensive. A powerful GPU is recommended.
-- Mode collapse (where the Generator produces limited variety) may occur and can be mitigated with proper hyperparameter tuning.
-- Experimenting with different architectures, activation functions, and optimizers may improve results.
-
 ## References
 - DCGAN Paper: `https://arxiv.org/abs/1511.06434`
 - PyTorch DCGAN Tutorial: `https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html`

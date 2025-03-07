@@ -4,6 +4,11 @@
 
 This project implements a Deep Convolutional Generative Adversarial Network (DCGAN) using PyTorch to generate realistic face images from the CelebA dataset.
 
+## Files in Repo
+There are 2 files included in the repository both belonging to same assignment:
+1. **Assignment_3**: This Python notebook contains the implementation of a DCGAN model, including the generator and discriminator, trained on the CelebA dataset for 10 epochs.
+2. **Assignment_3_5epochs**: This Python notebook contains the implementation of a DCGAN model, including the generator and discriminator. This is the same code the only difference is the DCGAN is trained on the CelebA dataset for only 5 epochs.
+
 ## Dataset Preprocessing Steps
 
 1. **Download the CelebA Dataset**
@@ -59,6 +64,21 @@ This project implements a Deep Convolutional Generative Adversarial Network (DCG
 - As training progresses, the Generator improves, and the images start resembling real human faces.
 - After sufficient epochs, the GAN produces high-quality face images that are visually convincing.
 ![image](https://github.com/user-attachments/assets/2502c621-108f-4500-8ff4-c5059e8f765f)
+
+## Results
+1. **Discriminator Loss (Loss_D)**
+Starts high (~1.58) and fluctuates before stabilizing around 0.4 - 0.7.
+Higher Loss_D (~2.47) indicates the Discriminator is struggling to distinguish real and fake samples.
+Lower Loss_D (~0.3 - 0.5) suggests the Discriminator is getting better at classification but should not overpower the Generator.
+
+2. **Generator Loss (Loss_G)**
+Initially starts high (~2.34) and gradually decreases, suggesting that the Generator is improving.
+A very low Generator loss (~0.1 - 0.3) might indicate mode collapse, where the Generator produces limited variation.
+
+3. **Training Stability**
+Ideal training results show Loss_D and Loss_G converging while maintaining some balance.
+Large fluctuations may indicate instability and require hyperparameter tuning.
+
 
 ## References
 - DCGAN Paper: `https://arxiv.org/abs/1511.06434`

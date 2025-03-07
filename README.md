@@ -19,6 +19,9 @@ This project implements a Deep Convolutional Generative Adversarial Network (DCG
 3. **Create DataLoader**
    - Use PyTorch's `DataLoader` to batch and shuffle the dataset for efficient training.
 
+![image](https://github.com/user-attachments/assets/3ee0971c-ac43-4dc6-86ae-08e61801f376)
+
+
 ## How to Train the Model
 
 1. **Setup Environment**
